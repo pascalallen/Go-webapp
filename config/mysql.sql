@@ -72,4 +72,4 @@ CREATE TABLE note (
     CONSTRAINT `f_note_user` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
     
     PRIMARY KEY (id)
-);
+); 
